@@ -241,10 +241,10 @@ p {
 .delete-popup {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     width: 70vw;
-    height: 50vh;
+    height: 80vh;
     background-color: rgb(29, 29, 29);
     border-radius: 20px;
     position: absolute;
@@ -288,7 +288,7 @@ p {
 
 .user-container button {
     background-color: white;
-    font-weight: 400;
+    font-weight: 600;
     color: black;
     border: white;
     border-radius: 5px;

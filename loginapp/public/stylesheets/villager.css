@@ -10,6 +10,7 @@ header {
     height: 12vh;
     width: 100%;
     padding: 20px 50px;
+    position: fixed;
     display: flex;
     align-items: center;
     background: rgb(34,34,34);
@@ -44,9 +45,16 @@ header {
 
 /*********************************************/
 
+
+main {
+    overflow-y: scroll;
+    height: 100vh;
+    padding-top: 13vh;
+}
 main h2 {
     text-align: center;
     padding: 50px;
+    font-weight: 500;
 }
 
 .villager-container .villager, .villager-title {

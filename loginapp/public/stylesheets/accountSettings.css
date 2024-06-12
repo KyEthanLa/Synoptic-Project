@@ -15,7 +15,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid rgb(116, 116, 116);
     background: rgb(34,34,34);
 }
 

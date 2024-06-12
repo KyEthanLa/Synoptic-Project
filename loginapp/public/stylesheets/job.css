@@ -55,7 +55,6 @@ main {
     position: relative;
     width: 75vw;
     height: 50vh;
-    border-bottom: 1px solid rgb(172, 172, 172);
     display: flex;
     justify-content: center;
 }
@@ -74,10 +73,18 @@ main {
 }
 
 .checkbox {
-    border: 1px solid lightgrey;
-    margin-bottom: 5px;
+    display: flex;
+    border: 1px solid grey;
+    margin-bottom: 15px;
     border-radius: 10px;
     height: 40px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 25px 25px 25px;
+}
+
+.checkbox:hover {
+    cursor: pointer;
 }
 
 .container {
@@ -92,22 +99,29 @@ main {
     width: 50%;
     flex-grow: 1;
     text-align: center;
-    margin: 30px;
-    border: 1px solid lightgrey;
+    margin: 20px;
+    border: none;
+    border-radius: 10px;
     padding: 40px;
+    background-color: rgb(34, 34, 34);
+    box-shadow: 0 0 5px grey;
+    color: white;
+    height: 45vh;
+    overflow-y: scroll;
     
 }
 
 .title {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     font-size: 20px;
+    font-weight: 600;
 }
 
 
 
 
 .btn {
-    margin-top: 8vh;
+    margin-top: 5vh;
     text-align: center;
 }
 
@@ -116,6 +130,7 @@ main {
     height: 45px;
     background: rgb(39, 39, 39);
     border: 2px solid rgb(39, 39, 39);
+    box-shadow: 0 0 10px grey;
     color: white;
     outline: none;
     border-radius: 30px;
