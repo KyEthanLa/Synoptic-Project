@@ -27,14 +27,14 @@ block content
         p Welcome, #{user}
         #container
             .item
-                h2.job-listings Job Listings
-                .user-container
-                    p Job Name
-                    p uea@uea.ac.uk
-                    div
-                        button.delete(type='submit' onclick='openDeletePopup()') Details
-                        #delete-popup.delete-popup
-                            button.close(type='button' onclick='closeDeletePopup()') CLOSE
+                each val in jobs
+                    .user-container
+                        p= val.name  
+                        p= val.contact
+                        div
+                            button.delete(type='submit' onclick='openDeletePopup()') Details
+                            #delete-popup.delete-popup
+                                button.close(type='button' onclick='closeDeletePopup()') CLOSE
             .item2
                 .card
                     .search
