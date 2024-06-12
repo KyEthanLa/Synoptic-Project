@@ -15,8 +15,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid rgb(116, 116, 116);
-    background: linear-gradient(148deg, rgb(34, 34, 34),rgb(65, 65, 65));
+    background: rgb(34,34,34);
 }
 
 .logo {
@@ -68,8 +67,8 @@ main {
 
 .form-container-login {
     position: relative;
-    width: 25vw;
-    height: 55vh;
+    width: 23vw;
+    height: 60vh;
     background: rgba(255, 255, 255, 0.7);
     border: 1px solid lightgrey;
     border-radius: 20px;

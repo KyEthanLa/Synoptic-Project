@@ -13,8 +13,7 @@ header {
     position: fixed;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid rgb(116, 116, 116);
-    background: linear-gradient(148deg, rgb(34, 34, 34),rgb(65, 65, 65));
+    background: rgb(34,34,34);
 }
 
 .logo {
@@ -59,17 +58,17 @@ header a {
 main {
     display: flex;
     justify-content: center;
-    padding-top: 17vh;
+    padding-top: 20vh;
     height: 100vh;
 }
 
 .form-container-register {
     position: relative;
-    width: 25vw;
-    height: 650px;
+    width: 23vw;
+    height: 70vh;
     background: rgba(255, 255, 255, 0.7);
     border: 1px solid lightgrey;
-    border-radius: 30px;
+    border-radius: 20px;
     box-shadow: 0 0 5px grey;
     display: flex;
     justify-content: center;

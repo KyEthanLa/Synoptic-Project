@@ -12,7 +12,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid rgb(116, 116, 116);
     background: rgb(39, 39, 39);
 }
 
@@ -103,7 +102,7 @@ p {
   }
   
   .card {
-    background: rgb(39, 39, 39);
+    background: rgb(34, 34, 34);
     color: white;
     padding: 2em;
     border-radius: 20px;
@@ -207,7 +206,7 @@ p {
   }
 
   .day {
-    background: rgb(39, 39, 39);
+    background: rgb(34, 34, 34);
     flex-grow: 1;
     height: 25%;
     border: 1px solid;
@@ -220,7 +219,7 @@ p {
 .item {
     display: flex;
     flex-direction: column;
-    background-color: rgb(39, 39, 39);
+    background-color: rgb(34, 34, 34);
     border: 1px solid white;
     box-shadow: 0 0 5px lightgrey;
     overflow-y: scroll;
@@ -244,8 +243,8 @@ p {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 500px;
-    height: 300px;
+    width: 70vw;
+    height: 50vh;
     background-color: rgb(29, 29, 29);
     border-radius: 20px;
     position: absolute;
@@ -257,7 +256,7 @@ p {
     color: white;
     visibility: hidden;
     transition: transform 0.3s, top 0.1s;
-    box-shadow: 0 0 5px white;
+    box-shadow: 0 0 5px grey;
 }
 
 .opendelete-popup {
@@ -273,8 +272,8 @@ p {
     align-items: center;
     padding: 0 20px 0 20px;
     margin-bottom: 10px;
-    border-bottom: 1px solid white;
-    height: 9vh;
+    border-bottom: 1px solid rgb(90, 90, 90);
+    height: 7vh;
 }
 
 .user-container:hover {
@@ -291,10 +290,10 @@ p {
     background-color: white;
     font-weight: 400;
     color: black;
-    border: none;
-    border-radius: 15px;
+    border: white;
+    border-radius: 5px;
     width: 100px;
-    box-shadow: 0 0 3px white;
+    box-shadow: 0 0 1px grey;
     height: 35px;
 }
 

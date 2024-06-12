@@ -13,7 +13,7 @@ header {
     padding: 20px 50px;
     display: flex;
     align-items: center;
-    background: linear-gradient(148deg, rgb(34, 34, 34),rgb(65, 65, 65));
+    background: rgb(34, 34, 34)
 }
 
 .navigation a {

@@ -1,4 +1,4 @@
-extends layout 
+ 
 block content
   doctype html
   head
@@ -11,8 +11,21 @@ block content
     link(rel='preconnect' href='https://fonts.googleapis.com')
     link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
     link(href='https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lugrasimo&family=Satisfy&display=swap' rel='stylesheet')
-    link(rel='stylesheet' href='stylesheets/styles.css')
+    link(rel='stylesheet' href='stylesheets/accountSettings.css')
   body
+    header
+      h2.logo Gov
+      nav.navigation
+        if !loggedIn
+          a(href='/') Login
+          a(href='/register') Register
+        if isAdmin 
+          a(href='/') Status
+        if loggedIn 
+          a(href='/weather') Weather Alert
+          a(href='/job') Job Alert
+          a(href='/villager') Villager Database
+          a(href='/accountSettings') ( #{user} )
     main.accountSettings-main
       .sign-out 
         a(href='/signOut') Sign Out
